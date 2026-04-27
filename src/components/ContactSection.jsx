@@ -63,7 +63,7 @@ export const ContactSection = () => {
                 Get in <span className="text-primary">touch...</span>
             </h3>
             <p className="text-center text-muted-foreground mb-4 max-w-2xl mx-auto">
-                My orbit is always open to new opportunities and collaborations. If you want to bridge the gap between imagination and reality, feel free to send a signal. Let's discuss how my logic and resilience can add value to your team.
+                My orbit is always open. If you’re looking for someone to translate raw patterns into intelligent solutions, let’s connect. I am ready to show how my resilience and my dual-path in Software Engineering and Data Science can turn your project’s vision into a high-performance reality.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center justify-center md:justify-start mx-auto">
@@ -79,8 +79,8 @@ export const ContactSection = () => {
                             </div>
                             <div>
                                 <h4> Email </h4>
-                                <a href="mailto:carvalholevis@icloud.com" className="text-muted-foreground hover:text-primary transition-colors">
-                                    carvalholevis@icloud.com
+                                <a href="mailto:levitoncarvalho@icloud.com" className="text-muted-foreground hover:text-primary transition-colors">
+                                    levitoncarvalho@icloud.com
                                 </a>
                             </div>
                         </div>
@@ -132,12 +132,12 @@ export const ContactSection = () => {
                     <form ref={form} onSubmit={sendEmail} className="space-y-6">
                         <div>
                             <label htmlFor="name" className="block text-sm font-medium mb-2">Your Name</label>
-                            <input type="text" id="name" name="name" required className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary" placeholder="Lévis Carvalho" />
+                            <input type="text" id="name" name="name" required className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary" placeholder="Leviton Carvalho" />
                         </div>
 
                         <div>
                             <label htmlFor="email" className="block text-sm font-medium mb-2">Your E-mail</label>
-                            <input type="email" id="email" name="email" required className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary" placeholder="carvalholevis@icloud.com" />
+                            <input type="email" id="email" name="email" required className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary" placeholder="levitoncarvalho@icloud.com" />
                         </div>
 
                         <div>

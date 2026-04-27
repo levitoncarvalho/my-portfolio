@@ -5,45 +5,51 @@ import { cn } from "../lib/utils"
 const skills = [
     // Frontend
     { name: "HTML/CSS", level: 95, category: "frontend" },
-    { name: "React", level: 90, category: "frontend" },
-    { name: "Angular", level: 95, category: "frontend" },
+    { name: "React", level: 95, category: "frontend" },
+    { name: "Angular", level: 90, category: "frontend" },
     { name: "JavaScript", level: 95, category: "frontend" },
     { name: "TypeScript", level: 80, category: "frontend" },
 
     // Backend
     { name: "Node.js", level: 90, category: "backend" },
     { name: "Express", level: 85, category: "backend" },
-    { name: "Java", level: 75, category: "backend" },
-    { name: "Spring Boot", level: 75, category: "backend" },
-    { name: "Django", level: 70, category: "backend" },
-    { name: "C#", level: 70, category: "backend" },
+    { name: "Java", level: 85, category: "backend" },
+    { name: "Spring Boot", level: 85, category: "backend" },
+    { name: "Django", level: 85, category: "backend" },
+    { name: "C/C++", level: 85, category: "backend" },
+    { name: "Python", level: 90, category: "backend" },
 
     // Database
-    { name: "MySQL", level: 85, category: "database" },
+    { name: "MySQL", level: 95, category: "database" },
     { name: "PostgreSQL", level: 80, category: "database" },
     { name: "MongoDB", level: 75, category: "database" },
 
     // Data Science
-    { name: "Pandas", level: 80, category: "data-science" },
+    { name: "Python", level: 95, category: "data science | machine learning" },
+    { name: "Pandas", level: 95, category: "data science | machine learning" },
+    { name: "Numpy", level: 95, category: "data science | machine learning" },
+    { name: "Scikit-Learn", level: 95, category: "data science | machine learning" },
+    { name: "Scipy", level: 95, category: "data science | machine learning" },
+    { name: "Matplotlib", level: 95, category: "data science | machine learning" },
+    { name: "Seaborn", level: 95, category: "data science | machine learning" },
+    { name: "Streamlit", level: 95, category: "data science | machine learning" },
 
     // DevOps
     { name: "Git/GitHub/GitLab", level: 90, category: "devops" },
-    { name: "Docker", level: 75, category: "devops" },
     { name: "AWS", level: 85, category: "devops" },
 
     // Tools
     { name: "Visual Studio Code", level: 95, category: "tools" },
-    { name: "Cursor", level: 95, category: "tools" },
     { name: "Agile/Scrum", level: 85, category: "tools" },
-    { name: "WebPack/npm", level: 80, category: "tools" },
+    { name: "WebPack/npm", level: 90, category: "tools" },
 ];
 
-const categories = ["all", "frontend", "backend", "database", "data-science", "devops", "tools"]
+const categories = ["data science | machine learning", "frontend", "backend", "database", "devops", "tools"]
 
 export const SkillsSection = () => {
-    const [activeCategory, setActiveCategory] = useState("all")
+    const [activeCategory, setActiveCategory] = useState("data science | machine learning")
 
-    const filteredSkills = skills.filter((skill) => activeCategory === "all" || skill.category === activeCategory);
+    const filteredSkills = skills.filter((skill) => skill.category === activeCategory);
 
     return <section id="skills" className="min-h-screen flex py-24 px-4 relative bg-secondary">
 

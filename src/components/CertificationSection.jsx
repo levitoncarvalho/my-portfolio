@@ -90,8 +90,17 @@ const certificates = [
         date: "2023",
         hours: "115h",
         credentialUrl: "https://hermes.dio.me/certificates/2EDE81D8.pdf"
+    },
+    {
+        id: 12,
+        title: "Python Fundamentals",
+        institution: "DIO - Digital Innovation One",
+        technologies: ["Python"],
+        date: "2026",
+        hours: "26",
+        credentialUrl: "https://hermes.dio.me/certificates/FFPRDN9L.pdf"
     }
-];
+].sort((a, b) => b.date - a.date);
 
 export const CertificationSection = () => {
     return (

@@ -8,14 +8,18 @@ export const HeroSection = () => {
             <div className="space-y-6">
                 <h1 className="text-4xl md:text-6xl font-bold tracking-tight ">
                     <span className="opacity-0 animate-fade-in"> Hello, I am </span>
-                    <span className="text-primary opacity-0 animate-fade-in-delay-2">Lévis </span>
+                    <span className="text-primary opacity-0 animate-fade-in-delay-2">Leviton </span>
                     <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-4">Carvalho</span>
 
                 </h1>
 
                 <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-4">
-                A Full Stack Developer bridging the gap between imagination and reality.
+                    I'm a Software Engineering student with a strong focus on Data Science and Machine Learning.
                 </p>
+                <div className="opacity-0 animate-fade-in-delay-4 italic text-sm md:text-base text-muted-foreground/80 max-w-xl mx-auto border-l-2 border-primary/30 pl-4 py-1">
+                    <p className="text-primary">"Without data, you're just another person with an opinion."</p>
+                    <span className="block mt-1 font-medium not-italic text-xs">— W. Edwards Deming</span>
+                </div>
 
                 <div className="opacity-0 animate-fade-in-delay-4 pt-4 flex flex-col md:flex-row gap-4 justify-center items-center">
                     <a href="#projects" className="cosmic-button mx-4">

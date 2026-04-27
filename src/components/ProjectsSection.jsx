@@ -4,49 +4,13 @@ import { ExternalLink } from "lucide-react"
 
 const projects = [
     {
-        id: 1,
-        title: "TinDog Project",
-        description: "Responsive landing page for a dog dating app, built with HTML, CSS, and Bootstrap 5.",
-        image: "/projects/project1.jpeg",
-        tags: ["frontend", "html", "css", "bootstrap"],
-        demoUrl: "#",
-        githubUrl: "https://github.com/carvalholevis/TinDog-Project",
-    },
-    {
-        id: 2,
-        title: "Dice Game",
-        description: "Interactive 2-player dice game using pure JavaScript to handle logic and DOM manipulation.",
-        image: "/projects/project2.jpeg",
-        tags: ["frontend", "javascript", "game"],
-        demoUrl: "#",
-        githubUrl: "https://github.com/carvalholevis/dice-game",
-    },
-    {
-        id: 3,
-        title: "The Drum Kit",
-        description: "Virtual drum kit playable via keyboard or click, showcasing advanced DOM event handling.",
-        image: "/projects/project3.jpeg",
-        tags: ["frontend", "javascript", "interactive"],
-        demoUrl: "#",
-        githubUrl: "https://github.com/carvalholevis/The-Drum-Kit",
-    },
-    {
-        id: 4,
-        title: "WhatsApp Web Clone",
-        description: "High-fidelity visual replica of WhatsApp Web interface, focusing on complex CSS layouts.",
-        image: "/projects/project4.jpeg",
-        tags: ["frontend", "html", "css", "javascript"],
-        demoUrl: "#",
-        githubUrl: "https://github.com/carvalholevis/WhatsAppWeb-Clone",
-    },
-    {
         id: 5,
         title: "CRM - Client Management",
         description: "Full-stack CRM built with Django/Python to efficiently manage client data and interactions.",
         image: "/projects/project5.jpeg",
         tags: ["fullstack", "django", "python"],
         demoUrl: "#",
-        githubUrl: "https://github.com/carvalholevis/CRM-Gestao-de-Clientes",
+        githubUrl: "https://github.com/levitoncarvalho/CRM-Gestao-de-Clientes",
     },
     {
         id: 6,
@@ -55,7 +19,7 @@ const projects = [
         image: "/projects/project6.jpeg",
         tags: ["frontend", "html", "css"],
         demoUrl: "#",
-        githubUrl: "https://github.com/carvalholevis/CarvalhoLevis-Host",
+        githubUrl: "https://github.com/levitoncarvalho/CarvalhoLevis-Host",
     },
     {
         id: 7,
@@ -64,7 +28,7 @@ const projects = [
         image: "/projects/project7.jpeg",
         tags: ["frontend", "angular", "typescript"],
         demoUrl: "#",
-        githubUrl: "https://github.com/carvalholevis/angular-naturalis2",
+        githubUrl: "https://github.com/levitoncarvalho/angular-naturalis2",
     },
     {
         id: 8,
@@ -72,9 +36,51 @@ const projects = [
         description: "Professional portfolio built with React, Tailwind CSS, and EmailJS for serverless contact.",
         image: "/projects/project8.jpeg",
         tags: ["react", "tailwind", "emailjs", "frontend"],
-        demoUrl: "#",
-        githubUrl: "https://github.com/carvalholevis/my-portfolio.git",
-    }
+        demoUrl: "https://leviscarvalho-portfolio.vercel.app/",
+        githubUrl: "https://github.com/levitoncarvalho/my-portfolio.git",
+    },
+    {
+        id: 9,
+        title: "Vehicles Dashboard",
+        description: "Interactive web dashboard for exploring car sales advertisement data.",
+        image: "/projects/project9.jpeg",
+        tags: ["python", "streamlit", "pandas", "plotly", "jupyter notebook"],
+        demoUrl: "https://vehicles-dashboard-fdn3.onrender.com/",
+        githubUrl: "https://github.com/levitoncarvalho/vehicles-dashboard.git",
+    }, {
+        id: 10,
+        title: "Ice Store Analytics",
+        description: "Data-driven campaign planning for a global video game retailer.",
+        image: "/projects/project10.jpeg",
+        tags: ["python", "pandas", "numpy", "streamlit"],
+        demoUrl: "https://ice-store-analytics-levitoncarvalho.streamlit.app/",
+        githubUrl: "https://github.com/levitoncarvalho/ice-store-analytics.git",
+    }, {
+        id: 11,
+        title: "Megaline Mobile Plan Recommendation",
+        description: "Turning subscriber behavior into smarter plan choices.",
+        image: "/projects/project11.jpeg",
+        tags: ["pythobn", "pandas", "scikit-learn", "streamlit"],
+        demoUrl: "https://megaline-mobile-plan-recommendation-levitoncarvalho.streamlit.app/",
+        githubUrl: "https://github.com/levitoncarvalho/megaline-mobile-plan-recommendation.git",
+    }, {
+        id: 12,
+        title: "Beta Bank Churn Prediction",
+        description: "Turning behavioral data into intelligent customer retention.",
+        image: "/projects/project12.jpeg",
+        tags: ["python", "pandas", "scikit-learn", "streamlit"],
+        demoUrl: "https://beta-bank-churn-prediction-carvalholevis.streamlit.app/",
+        githubUrl: "https://github.com/levitoncarvalho/beta-bank-churn-prediction.git",
+    },
+    {
+        id: 13,
+        title: "OilyGiant Blackgold Bootstrap",
+        description: "Finding the most profitable oil region through machine learning & risk simulation",
+        image: "/projects/project13.jpeg",
+        tags: ["python", "pandas", "scikit-learn", "streamlit", "numpy"],
+        demoUrl: "https://oilygiant-blackgold-bootstrap-levitoncarvalho.streamlit.app/",
+        githubUrl: "https://github.com/levitoncarvalho/OilyGiant-blackgold-bootstrap.git",
+    },
 ];
 
 
@@ -124,7 +130,7 @@ export const ProjectSection = () => {
             </div>
 
             <div className="text-center mt-12">
-                <a href="https://github.com/carvalholevis" className="cosmic-button w-fit flex items-center mx-auto gap-2" target="_blank">
+                <a href="https://github.com/levitoncarvalho" className="cosmic-button w-fit flex items-center mx-auto gap-2" target="_blank">
                     Take a look at my Github <ArrowRight size={16} />
                 </a>
 

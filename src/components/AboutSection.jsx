@@ -23,10 +23,10 @@ export const AboutSection = () => {
                         A Tropical Soul, Solving the <span className="text-primary text-glow">Infinite Puzzle</span>
                     </h3>
                     <p className="text-justify text-lg md:text-lx leading-relaxed text-muted-foreground indent-8">
-                        Born under the warm sun of Bahia and now exploring new horizons in Portugal, I am a 30-year-old developer who believes technology needs a human touch. My journey across the Atlantic taught me adaptability and resilience—traits I bring to every line of code I write.
+                        From the vibrant energy of Bahia to the tech landscapes of Portugal, I am a 31-year-old developer driven by the 'why' behind the 'how.' As a Software Engineering student with a soul for Data Science, I bridge the gap between building robust systems and extracting meaningful stories from data.
                     </p>
                     <p className="text-justify text-lg md:text-lx leading-relaxed text-muted-foreground indent-8">
-                        Since 2023, I have been immersing myself in Software Engineering, captivated by the power of creation it offers. I see Full Stack development as an infinite puzzle waiting to be solved. My mission is simple yet ambitious: turning logic into universes, crafting robust applications where performance meets purpose.
+                        My mission is simple yet ambitious: merging the precision of Full Stack development with the foresight of predictive modeling. I turn complex logic into human-centered universes, where every line of code serves a purpose and every data point tells a story."
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                         <a
