@@ -26,6 +26,10 @@ From the vibrant energy of **Bahia** to the tech landscapes of **Portugal**, thi
 
 The goal was simple yet ambitious: build a **visually stunning, animated, and fully responsive** portfolio that reflects both technical depth and creative identity.
 
+**Who it's for:** recruiters, hiring managers and collaborators who want a quick view of my projects, certifications and skills, with a direct way to reach me through the contact form.
+
+**What's next:** planned features, fixes and improvements are listed in [`ROADMAP.md`](ROADMAP.md).
+
 ---
 
 ## 🚀 Results
@@ -173,10 +177,12 @@ my-portfolio/
 ├── vite.config.js
 ├── index.html
 ├── eslint.config.js
+├── .env.example             # EmailJS variables (copy to .env)
 ├── .gitignore
 ├── .gitattributes
-├── package-lock-2.json
 ├── package-lock.json
+├── LICENSE                  # MIT
+├── ROADMAP.md               # Planned work
 └── README.md
 ```
 
@@ -191,6 +197,9 @@ cd my-portfolio
 
 # Install dependencies
 npm install
+
+# Set up the contact form: copy the example file and add your EmailJS keys
+cp .env.example .env
 
 # Run in development
 npm run dev

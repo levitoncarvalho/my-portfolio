@@ -33,11 +33,11 @@ export const ContactSection = () => {
 
         emailjs
             .sendForm(
-                'service_ktwf00s',
-                'template_sxd776g',
+                import.meta.env.VITE_EMAILJS_SERVICE_ID,
+                import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
                 form.current,
                 {
-                    publicKey: '4_6QOqvzcKyrNyap_',
+                    publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
                 }
             )
             .then(
